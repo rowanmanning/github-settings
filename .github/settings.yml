@@ -2,9 +2,6 @@
 # They can be extended in your repo using:
 #   _extends: rowanmanning/github-settings
 
-# This is to stop my project linter from updating this file
-_isMasterSettingsFile: true
-
 repository:
   allow_merge_commit: false
   allow_rebase_merge: true
