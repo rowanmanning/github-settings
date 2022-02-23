@@ -19,39 +19,51 @@ repository:
   enable_vulnerability_alerts: true
 
 labels:
+
   - name: blocked
     color: 'aa0000'
     description: "Work is blocked by something else"
+
   - name: breaking
     color: 'aa0000'
     description: "Will require a major version bump when completed or merged"
+
   - name: bug
     color: 'ee6666'
     description: "Something isn't working as expected"
+
   - name: dependencies
     color: 'ffdd00'
     description: "Maintenance work relating to dependency bumps"
+
   - name: documentation
     color: '0077cc'
     description: "Improvements or additions to documentation"
+
   - name: duplicate
     color: 'cccccc'
     description: "This issue or pull request already exists"
+
   - name: feature
     color: '33cc33'
     description: "New feature request or enhancement"
+
   - name: good first issue
     color: '6655ff'
     description: "Something that would be good for newcomers to pick up"
+
   - name: help wanted
     color: '449944'
     description: "We'd appreciate some help with this"
+
   - name: maintenance
     color: 'ffdd00'
     description: "Technical non-feature work that might improve the project"
+
   - name: security
     color: 'ee6666'
     description: "This includes a security patch"
+
   - name: wontfix
     color: 'cccccc'
     description: "This will not be worked on"
